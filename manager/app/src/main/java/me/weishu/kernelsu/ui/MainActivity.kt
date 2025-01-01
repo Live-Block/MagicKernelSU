@@ -79,9 +79,9 @@ class MainActivity : ComponentActivity() {
                             navController = navController,
                             defaultTransitions = object : NavHostAnimatedDestinationStyle() {
                                 override val enterTransition: AnimatedContentTransitionScope<NavBackStackEntry>.() -> EnterTransition
-                                    get() = { fadeIn(animationSpec = tween(340)) }
+                                    get() = { fadeIn(animationSpec = tween(500)) }
                                 override val exitTransition: AnimatedContentTransitionScope<NavBackStackEntry>.() -> ExitTransition
-                                    get() = { fadeOut(animationSpec = tween(340)) }
+                                    get() = { fadeOut(animationSpec = tween(500)) }
                             }
                         )
                     }
