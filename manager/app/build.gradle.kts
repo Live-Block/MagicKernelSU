@@ -33,6 +33,10 @@ android {
         }
     }
 
+    defaultConfig {
+        applicationId = "me.kernelsu.manager"
+    }
+
     buildFeatures {
         aidl = true
         buildConfig = true
